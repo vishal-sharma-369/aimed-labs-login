@@ -74,7 +74,11 @@ const Login = () => {
         <Form>
           <TitleMedium title="Login" />
           <TextInputWithLabel label="Login ID" placeholder="Enter Login ID" />
-          <TextInputWithLabel label="Password" placeholder="Enter Password" />
+          <TextInputWithLabel
+            label="Password"
+            placeholder="Enter Password"
+            password={true}
+          />
           <CheckInputWithLabel label="Remember Me" />
           <CheckInputWithLabel
             label="Agree to"

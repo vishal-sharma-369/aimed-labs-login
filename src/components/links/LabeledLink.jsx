@@ -8,6 +8,7 @@ const Text = styled.span`
 const Link = styled.a`
   color: #f89636;
   font-size: 1.2rem;
+  font-weight: 800;
 `;
 
 const Wrapper = styled.div`
